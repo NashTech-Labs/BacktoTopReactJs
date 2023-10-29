@@ -1,0 +1,22 @@
+.button-container {
+  position: fixed;
+  right: 40px;
+  bottom: 5rem;
+  z-index: 1000;
+  border-radius: 8px 8px 8px 8px;
+  background: #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 7rem;
+  transition: opacity 0.5s, color ease-in-out 0.3s, background ease-in-out 0.3s;
+}
+
+.button {
+  text-transform: initial;
+  color: #000000;
+  font-size: 13px;
+}
+
+.top-arrow-icon {
+  font-size: 28px;
+  margin: 0px 10px;
+}
